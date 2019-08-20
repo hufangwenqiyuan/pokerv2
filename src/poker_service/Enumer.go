@@ -30,3 +30,17 @@ var Grade = map[string]int{
 	"K": 12,
 	"A": 13,
 }
+
+const (
+	S = iota
+	H
+	D
+	C
+)
+
+var GradeFace = map[string]int{
+	"S": 0,
+	"H": 1,
+	"D": 2,
+	"C": 3,
+}

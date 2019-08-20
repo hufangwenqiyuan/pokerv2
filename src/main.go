@@ -1,6 +1,8 @@
 package main
 
-import "poker1/src/poker_service"
-func main()  {
-	poker_service.NewStartPoker().StartPoker("./source/match.json")
+import "fmt"
+
+func main() {
+	pokerHandA := "X"
+	fmt.Printf("%v", pokerHandA[0])
 }
