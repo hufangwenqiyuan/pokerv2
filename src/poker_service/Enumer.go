@@ -43,4 +43,5 @@ var GradeFace = map[string]int{
 	"H": 1,
 	"D": 2,
 	"C": 3,
+	"n":4,
 }
